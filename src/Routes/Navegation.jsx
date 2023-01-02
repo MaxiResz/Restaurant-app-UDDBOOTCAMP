@@ -11,7 +11,7 @@ const Navegation = () => {
     <>
         <Navbar bg="white">
         <Container className='justify-content-center'>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img id='imagenLogo'             
               src={ImagenLogo}
               width="200"
@@ -23,7 +23,6 @@ const Navegation = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/products">Menu</Nav.Link>
             <Nav.Link href="/formulario">Reservas</Nav.Link>
-            <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
 
           </Navbar.Brand>

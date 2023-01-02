@@ -1,0 +1,26 @@
+.carrusel1{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#parrafoBanner{
+    font-size: 56px;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    padding-bottom: 2em;
+    color: rgb(216, 255, 252);
+}
+#h1Banner{
+    padding-right: 12em;
+    font-size: 56px;
+    font-weight: 300;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    margin: 1em;
+    padding-bottom: 3.5em;
+    
+    
+}
