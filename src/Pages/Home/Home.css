@@ -1,26 +1,71 @@
 .carrusel1{
-    align-items: center;
+    display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    
+    
 }
 #parrafoBanner{
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 300;
     font-variant: small-caps;
     letter-spacing: 0.05em;
     line-height: 0.9em;
-    padding-bottom: 2em;
-    color: rgb(216, 255, 252);
+    padding-bottom: 1em;
+    color: white;
+    padding-right: 15em;
+    margin-right: 4em;
+    
+    
 }
 #h1Banner{
-    padding-right: 12em;
-    font-size: 56px;
+    padding-right: 19em;
+    padding-bottom: 1em;
+    justify-content: center;
+    color: pink;
+    font-size: 94px;
     font-weight: 300;
-    font-variant: small-caps;
+    font-variant: normal;
     letter-spacing: 0.05em;
     line-height: 0.9em;
-    margin: 1em;
-    padding-bottom: 3.5em;
+    font-family: 'Passions Conflict', cursive;
+
     
     
+}
+#h1Banner2{
+    display: flex;
+    color: #a72573;
+    font-size: 56px;
+    padding-bottom: 2em;
+
+}
+#parrafoBanner2{
+    display: flex;
+    font-size: 24px;
+    padding-right: 35em;
+    color: #BD7FB0 ;
+    font-family: 'Lobster', cursive;
+
+}
+#img1{
+    opacity: 0.8;
+}
+#img2{
+    opacity: 0.8;
+}
+@media (max-width: 400px){
+    #parrafoBanner{
+        display: none;
+    }
+    #h1Banner{
+        font-weight: 300;
+        padding: 0;
+        font-size: 56px;
+        padding-right: 3em;
+        color: hotpink;
+    }
+    .carrusel2{
+        display: none;
+    }
 }

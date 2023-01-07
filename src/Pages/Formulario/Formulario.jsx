@@ -3,6 +3,8 @@ import { useState } from 'react'
 import {collection, addDoc} from 'firebase/firestore'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import Footer from '../../Routes/Footer/Footer'
+import '../Formulario/Formulario.css'
   
 const Formulario = () => {
     const valorInicial = {
@@ -62,10 +64,11 @@ const Formulario = () => {
         <Form.Label >Comentario</Form.Label>
         <Form.Control className='' type="text" placeholder="Escribe aqui..." name='comentario' onChange={handleInput} value={user.comentario} />
       </Form.Group>
-      <Button variant="primary" type="submit" >
+      <Button id='boton' variant="primary" type="submit" >
         Submit
       </Button>
     </Form>
+    <Footer />
     </div>
   )
 }

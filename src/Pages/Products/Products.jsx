@@ -4,7 +4,7 @@ import {collection, getDocs} from 'firebase/firestore'
 import {db} from '../../config/firebase' 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
-
+import Footer from '../../Routes/Footer/Footer'
 
 
 const Products = () => {
@@ -36,7 +36,7 @@ const Products = () => {
       <h1 className='text-center mt-5 fw-bold'>Menu</h1>
       <div className='container2'>
       {menu.map(plato=>(
-        <Card style={{width: '18rem'}} key={plato.id}>
+        <Card style={{width: '18rem'}}>
         <Card.Img variant ="top" src ={plato.img} />
         <Card.Body key={plato.id}>
         <Card.Title>{plato.name}</Card.Title>
@@ -47,8 +47,9 @@ const Products = () => {
        </Card.Body>
        </Card>
       ))}
-      </div>
       
+      </div>
+      <Footer />
     </div>
   )
 }

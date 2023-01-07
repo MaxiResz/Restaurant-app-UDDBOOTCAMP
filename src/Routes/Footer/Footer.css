@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    text-align: center;
+    color: black ;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.5777661406359419) 0%, rgba(34,210,246,0.28644961402529767) 25%, rgba(30,213,251,0.18000703699448528) 51%, rgba(27,216,255,0.3200630594034489) 76%, rgba(254,254,254,0) 100%);
+    padding-top: 2em;
+    
+    
+}
+.footerBottom{
+    color: #000;
+}
+.h5AboutUs{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+#informacionLegal{
+    text-decoration: none;
+    color: black;
+}
+.redesSocialesli{
+    text-decoration: none;
+    color: black;
+}
+
+
